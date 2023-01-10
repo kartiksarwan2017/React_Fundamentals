@@ -1,6 +1,7 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import Header from './components/Header/Header';
+import Users from './components/Users';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* <HelloWorld name="Above Header" title="Iam the King" /> */}
       <Header />
       <HelloWorld h={varname} hh="I love React" />
+      <Users />
     </div>
   );
 }
