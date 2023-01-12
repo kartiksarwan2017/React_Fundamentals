@@ -10,6 +10,8 @@ function Count() {
 
       return (
         <div className="hello" style={{textAlign: "center", padding: "5%", color: "white", background: "red"}}>
+
+          <p>You clicked {num} times</p>
           <p>You clicked {count} times</p>
           {/* <button onClick={() => setCount(count + 1)}>
             Click me
