@@ -1,8 +1,8 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld';
 import Header from './components/Header/Header';
+import HelloWorld from './components/HelloWorld';
 import Count from './components/Count';
-
+import Example from './components/Example';
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       <Header />
       <HelloWorld h={varname} hh="I love React" />
       <Count />
+      <Example /> 
     </div>
   );
 }
